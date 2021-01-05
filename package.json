@@ -1,0 +1,22 @@
+{
+  "name": "bnetza-rufzeichenliste-parser",
+  "version": "1.0.0",
+  "description": "A nodejs script to extract every assigned amateur radio callsign from the PDF list published by the German Federal Network Agency into a CSV file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinolejnik/bnetza-rufzeichenliste-parser.git"
+  },
+  "author": "Robin Olejnik DF2RO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinolejnik/bnetza-rufzeichenliste-parser/issues"
+  },
+  "homepage": "https://github.com/robinolejnik/bnetza-rufzeichenliste-parser#readme",
+  "dependencies": {
+    "crawler-request": "^1.2.2"
+  }
+}
